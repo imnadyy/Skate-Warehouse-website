@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .header{
+    width: 90%;
+    height: .8%;
+    margin: 0 auto;
+    border-bottom: 3px solid orangered;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+  }
+  
+  .brand h1{
+    padding: 10px 30px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+  }
+  
+  .brand h3{
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    text-align: center;
+  }
+  
+  .options button{
+    border: none;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 10px;
+    color: grey;
+  }
+  
+  .options button:hover {
+    color:orangered;
+  }
+
+  .wishlist {
+    margin-top: 5px;
+    /* padding-top: 5px; */
+    text-align: right;
+  }
